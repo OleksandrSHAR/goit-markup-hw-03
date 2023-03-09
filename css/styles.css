@@ -16,7 +16,14 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--praimary-text-color);
 }
+.conteiner {
+  width: 1128px;
+  margin: 0px 12px 0px 12px;
+  margin: auto;
+}
 /*---------------------- Navigation -------------------*/
+.header-titel {
+}
 .site-nav {
 }
 .staile {
@@ -27,6 +34,7 @@ body {
 }
 
 .auth-nav-ling {
+  display: inline-block;
   color: var(--praimary-text-color);
   letter-spacing: 0.02em;
   font-weight: 400;
@@ -49,7 +57,9 @@ body {
   font-style: normal;
 }
 .color {
+  display: inline-block;
   color: var(--logo-text-color);
+  margin: 24px 0px 24px 0px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -75,6 +85,7 @@ body {
 
   text-align: center;
   letter-spacing: 0.02em;
+  padding-top: 188px;
 }
 
 .button-baner {
@@ -84,6 +95,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 .button-baner:hover,
 .button-baner:focus {
@@ -195,6 +208,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 .portfolio-button:is(:hover, :focus) {
   background-color: var(--color-ocean);
@@ -205,6 +220,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 .projects-list {
   font-weight: 500;
@@ -247,4 +264,14 @@ body {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
