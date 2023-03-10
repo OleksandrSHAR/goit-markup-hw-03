@@ -300,6 +300,12 @@ body {
   width: 360px;
   margin-bottom: 48px;
 }
+.projects-list-item {
+  display: block;
+  border: 1px solid #e7e9fc;
+
+  width: 360px;
+}
 .projects-box {
   padding: 32px;
 }
