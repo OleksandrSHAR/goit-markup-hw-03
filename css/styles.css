@@ -303,6 +303,7 @@ body {
 .projects-box {
   padding: 32px;
 }
+
 .projects-flex {
   display: flex;
   flex-wrap: wrap;
