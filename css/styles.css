@@ -298,14 +298,8 @@ body {
   border: 1px solid #e7e9fc;
 
   width: 360px;
-  margin-bottom: 48px;
 }
-.projects-list-item {
-  display: block;
-  border: 1px solid #e7e9fc;
 
-  width: 360px;
-}
 .projects-box {
   padding: 32px;
 }
@@ -313,7 +307,8 @@ body {
 .projects-flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-button {
   background-color: var(--footer-text-color);
