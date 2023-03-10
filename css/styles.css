@@ -26,8 +26,6 @@ body {
 .header-flex {
   display: flex;
   align-items: center;
-
-  margin-left: auto;
 }
 
 .header-titel {
@@ -35,7 +33,6 @@ body {
   padding-bottom: 24px;
 }
 .site-nav {
-  margin-right: auto;
 }
 .staile {
   font-style: normal;
@@ -70,6 +67,7 @@ body {
 }
 .contacs {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacs-list {
@@ -277,7 +275,8 @@ body {
 /*!-------------------Portfolio--------------------*/
 /*!------------------HEDER port--------------------*/
 .port-section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 96px;
 }
 
 .port-heder {
@@ -302,7 +301,7 @@ body {
   margin-bottom: 48px;
 }
 .projects-box {
-  margin: 32px;
+  padding: 32px;
 }
 .projects-flex {
   display: flex;
