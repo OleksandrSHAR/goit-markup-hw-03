@@ -17,17 +17,22 @@ body {
   color: var(--praimary-text-color);
 }
 .conteiner {
-  width: 1128px;
+  width: 1158px;
   margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /*---------------------- Navigation -------------------*/
 .header-flex {
   display: flex;
   align-items: center;
-  gap: 40px;
+
+  margin-left: auto;
 }
 
 .header-titel {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .site-nav {
   margin-right: auto;
@@ -37,7 +42,6 @@ body {
 }
 .site-nav-ling {
   color: var(--title-text-color);
-  margin: 24px 0px 24px 0px;
 }
 
 .auth-nav-ling {
@@ -54,6 +58,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  gap: 40px;
 }
 
 .site-nav-ling:is(:hover, :focus) {
@@ -66,10 +71,13 @@ body {
 .contacs {
   font-style: normal;
 }
+
+.contacs-list {
+  gap: 40px;
+}
 .color {
   display: inline-block;
   color: var(--logo-text-color);
-  margin: 24px 0px 24px 0px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -87,7 +95,8 @@ body {
 .baner {
   background-color: var(--title-text-color);
   text-align: center;
-  margin-bottom: 120px;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .baner-titel {
   color: var(--body-color);
@@ -97,11 +106,11 @@ body {
   line-height: 1.07;
 
   letter-spacing: 0.02em;
-  padding-top: 188px;
-  padding-bottom: 48px;
+
   max-width: 496px;
   text-align: center;
   margin: auto;
+  margin-bottom: 48px;
 }
 
 .button-baner {
@@ -113,7 +122,7 @@ body {
   letter-spacing: 0.04em;
   border-radius: 4px;
   padding: 16px 32px;
-  margin-bottom: 188px;
+  margin: 0;
 }
 .button-baner:hover,
 .button-baner:focus {
@@ -121,7 +130,8 @@ body {
 }
 /*------------------------ Benefits -----------------*/
 .benefits {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .flex-ben {
   display: flex;
@@ -154,7 +164,7 @@ body {
 }
 /*--------------------------- Reasons --------------------*/
 .reasons {
-  margin-bottom: 128px;
+  padding-bottom: 120px;
 }
 .reasons-flex {
   display: flex;
@@ -179,14 +189,15 @@ body {
 .team {
   background-color: var(--accent-color);
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-section {
   width: 264px;
   height: 380px;
   background-color: var(--body-color);
-  margin-bottom: 120px;
+
   border-radius: 4px;
-  box-shadow: 0px 1px 6px;
+
   flex-basis: calc((100% - 24px) / 4);
 }
 .team-flex {
@@ -206,14 +217,16 @@ body {
 
   margin-bottom: 72px;
 }
-
+.team-item {
+  padding: 32px 16px;
+}
 .team-hero {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+
   margin-bottom: 8px;
 }
 
@@ -268,7 +281,6 @@ body {
 }
 
 .port-heder {
-  margin-bottom: 97px;
   border: 1px solid #e7e9fc;
 }
 .port-flex {
@@ -279,13 +291,18 @@ body {
 
 .port-filter {
   margin-bottom: 71px;
+  padding-top: 96px;
 }
 
 .projects-list {
+  display: block;
   border: 1px solid #e7e9fc;
+
   width: 360px;
-  height: 420px;
   margin-bottom: 48px;
+}
+.projects-box {
+  margin: 32px;
 }
 .projects-flex {
   display: flex;
@@ -317,6 +334,7 @@ body {
   border-radius: 4px;
 }
 .projects-item {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -325,6 +343,7 @@ body {
   color: var(--title-text-color);
 }
 .projects-text {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
