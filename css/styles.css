@@ -290,16 +290,16 @@ body {
 
 .port-filter {
   margin-bottom: 71px;
-  padding-top: 96px;
 }
 
 .projects-list {
-  display: block;
   border: 1px solid #e7e9fc;
 
   width: 360px;
 }
-
+.port-list {
+  display: block;
+}
 .projects-box {
   padding: 32px;
 }
